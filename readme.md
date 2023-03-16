@@ -35,7 +35,7 @@ The designs was created to the following widths:
 
 For the icons we're using [tablericons](http://tablericons.com)
 
-### Contact me on
+## Contact me on
 
 Visit my website [Soft-digitals](https://soft-digitals.com) if you want something similar or you want a full responsive website.
 Twitter [@justs0ft](https://twitter.com/justs0ft)
