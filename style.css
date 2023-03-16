@@ -1,0 +1,161 @@
+:root{
+
+    /* colors */
+
+    --neon-blue: #5451fa;
+    --pale-lavender: #dcdafe;
+    --armadillo:#4a4a4a;
+    --aluminum: #979797;
+    --white: #fff;
+
+    /* typography */
+
+    --fs-1: 12px;
+    --fs-2: 16px;
+    --fs-3: 20px;
+
+    --weight-400: 500;
+    --weight-600: 600;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background: var(--neon-blue);}
+
+a {text-decoration: none;}
+
+li {list-style: none;}
+
+button {
+    background: none;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+img, button, a {display: block;}
+
+span {display: inline-block;}
+
+html {
+    font-family: "Roboto", sans-serif;
+    overscroll-behavior: contain;
+}
+
+.main {
+    background: var(--white);
+    padding: 0 15px;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: right; 
+    padding: 15px 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image{
+    position: absolute;
+    top: 22%; 
+    left: 36%;
+}
+
+.image img{
+    width: 45%;
+    border-radius: 50px;
+}
+
+.name h2{
+    padding-top: 60px;
+    font-size: var(--fs-3);
+    font-weight: var(--weight-600);
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.name svg { 
+    position: absolute;
+    top: 42.3%; 
+    left: 68%;
+}
+
+.bio-info h3{
+    padding: 13px;
+    font-size: var(--fs-1);
+    font-weight: var(--weight-400);
+    text-align: center;
+    color: var(--armadillo);
+}
+
+#analytics {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.number span {
+    color: var(--neon-blue);
+}
+
+.number h2 {
+    font-weight: var(--weight-600);
+    font-size: var(--fs-3);
+    text-align: center;
+}
+
+.label h3{
+    font-size: var(--fs-1);
+    font-weight: var(--weight-400);
+    text-align: center;
+    color: var(--aluminum);
+}
+
+.follow-btn {
+    background: var(--pale-lavender);
+    color: var(--neon-blue);
+    font-size: 14px;
+    font-weight: var(--weight-600);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.follow-btn:hover {
+    background: var(--neon-blue);
+    color: var(--white);
+}
+
+#details{ padding: 20px;}
+
+.details li {
+    display: flex;
+    padding: 5px;
+}
+
+.details li p {
+    font-size: var(--fs-1);
+    padding: 5px;
+    color: var(--aluminum);
+    font-weight: var(--weight-400);
+}
+
+.details li p span {color: var(--armadillo);}
+
